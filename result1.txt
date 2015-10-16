@@ -1,0 +1,51 @@
+duplicate process id 'P3' in line 11, ignored
+invalid arrive-time '-1' in line 14, ignored
+invalid arrive-time '31' in line 15, ignored
+invalid service-time '0' in line 18, ignored
+invalid service-time '60' in line 19, ignored
+invalid priority '0' in line 22, ignored
+invalid priority '11' in line 23, ignored
+invalid priority '-1' in line 24, ignored
+
+[SJF]
+P1 ***                  
+P2    ******            
+P3            ****      
+P4                ***** 
+P5          **          
+CPU TIME: 20
+AVERAGE TURNAROUND TIME : 5.80
+AVERAGE WAITING TIME : 3.60
+
+
+[SRT]
+P1 ***                  
+P2    *      *****      
+P3     ****             
+P4                ***** 
+P5         **           
+CPU TIME: 20
+AVERAGE TURNAROUND TIME : 5.40
+AVERAGE WAITING TIME : 3.20
+
+
+[RR]
+P1 ** * *    *    *   *  *   
+P2   *    *    *    *   *  * 
+P3     *    *    *   *       
+P4       *    *    *   *  *  
+P5         *    *            
+CPU TIME: 25
+AVERAGE TURNAROUND TIME : 17.80
+AVERAGE WAITING TIME : 12.00
+
+
+[PR]
+P1 ***                  
+P2    *      *****      
+P3     ****             
+P4                ***** 
+P5         **           
+CPU TIME: 20
+AVERAGE TURNAROUND TIME : 5.40
+AVERAGE WAITING TIME : 3.20
